@@ -47,7 +47,9 @@ function userFlash(btn){
     }
     else {
         h2.innerHTML = `Game Over ! Your Score is <b> ${level} </b> Please Press Reset Button`;
-        startBtn.setAttribute("disabled", true)
+        startBtn.setAttribute("disable", true)
+        allBtns.setAttribute("disable", true)
+        
     }
  }
  function btnPress(){
@@ -66,5 +68,5 @@ function userFlash(btn){
     gameSeq = [];
     userSeq = [];
     level = 0;
-    levelUp();
+    levelUp()
  })
