@@ -68,5 +68,5 @@ function userFlash(btn){
     gameSeq = [];
     userSeq = [];
     level = 0;
-    levelUp()
+    levelUp();
  })
