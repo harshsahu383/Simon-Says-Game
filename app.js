@@ -70,4 +70,3 @@ function userFlash(btn){
     level = 0;
     levelUp();
  })
-''
