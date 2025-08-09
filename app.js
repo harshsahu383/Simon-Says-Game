@@ -69,4 +69,4 @@ function userFlash(btn){
     userSeq = [];
     level = 0;
     levelUp();
- })
+ });
